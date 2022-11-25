@@ -14,30 +14,30 @@ const Privacy = () => {
     
     <Navbar/>
      <div className="p-5 md:p-10">
-      <h2 className=" text-2xl font-bold  md:w-3/4 xl:text-left ">
+      <h2 className=" text-2xl font-bold  md:w-3/4 xl:text-left   xl:mx-auto   ">
         Turn data privacy into an opportunity to enhance customer experiences
       </h2>
-      <p className=" mt-5 text-black1">
+      <p className=" mt-5 text-black xl:mx-auto">
         As one of the best platform, we provides companies like yours with the
         tools to build trust while enhancing customer experiences. Gain
         increased transparency and control of your customers’ data, all while
         harnessing the power of that data to connect with customers in new ways.
       </p>
-      <div className="md:flex justify-between xl:w-9/12  ">
-      <div>
-      <h2 className="mt-10 text-3xl  text-blue-700 font-semibold">
+      <div className="md:flex justify-between xl:w-9/12    xl:mx-auto ">
+      <div className="sm:mx-auto sm:text-center">
+      <h2 className="mt-10 text-3xl  text-blue-700 font-semibold xl:text-center">
         Privacy for every customer
       </h2>
-      <p className=" mt-5 w-72">
+      <p className=" mt-5 w-72 sm:text-center sm:w-full">
         No matter where your customers are located, we care about helping you
         protect their personal data.
       </p>
       </div>
       <div>
-      <h2 className="mt-10 text-3xl text-blue-700 font-semibold  ">
+      <h2 className="mt-10 text-3xl text-blue-700 font-semibold  xl:text-center sm:mx-auto sm:text-center ">
         Global privacy support
       </h2>
-      <p className=" mt-5 w-72">
+      <p className=" mt-5 w-72 sm:text-center sm:w-full">
         We safeguard our customers’ data with a robust, comprehensive, and
         transparent privacy and security program.
       </p>
